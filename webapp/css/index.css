@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-size: 60px !important;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.text2 {
+    font-size: 20px !important;
+}
+
+.firstpage {
+    display: flex;
+    gap: 10px;
+    padding-left: 70px;
+    padding-top: 200px;
+    background: rgb(2, 19, 73);
+    height: 90%;
+    color: whitesmoke;
+}
+
+.mBar {
+    padding: 0 !important;
+}
+
+.mBar .mBarContentLeft,
+.mBar .mBarContentRight,
+.mBar .mBarContentMiddle {
+    padding: 0 !important;
+}
+
+.nav {
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+}
+
+.sapFCard {
+    border-radius: 0 !important; /* Remove border radius */
+}
+
+.sapFCard .sapFCardHeader,
+.sapFCard .sapFCardContent {
+    border-radius: 0 !important; /* Remove border radius from header and content */
+}
+
+.bigCard {
+    margin: 10px;
+    padding: 20px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 20px !important;
+    height: 170px;
+    border-radius: 10px !important;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}

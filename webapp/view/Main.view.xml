@@ -1,0 +1,99 @@
+<mvc:XMLView xmlns:f="sap.f"
+    xmlns:ux3="sap.ui.ux3"
+    xmlns:m="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <m:Page>
+        <m:headerContent>
+            <m:Bar class="nav">
+                <m:contentLeft>
+                    <m:Image src="assets/sap_logo - Copy.webp" width="50px" height="50px"/>
+                    <m:Link text="products"/>
+                    <m:Link text="Support"/>
+                    <m:Link text="Learning"/>
+                    <m:Link text="Community"/>
+                    <m:Link text="Parterns"/>
+                    <m:Link text="About"/>
+                    <m:Link text=""/>
+                </m:contentLeft>
+                <m:contentRight>
+                    <m:Link text="Explore SAP"/>
+                    <m:Button icon="sap-icon://search"/>
+                    <m:Button icon="sap-icon://person-placeholder"/>
+                    <m:Button icon="sap-icon://world"/>
+                </m:contentRight>
+            </m:Bar>
+        </m:headerContent>
+        <m:content>
+            <m:VBox class="firstpage" >
+                <m:FormattedText htmlText="Nothing can stop your&lt;br/&gt; business" class="text"/>
+                <m:FormattedText htmlText="With SAP, AI agents, data, and process work as one—so&lt;br/&gt;you can bring out your best, even when the world&lt;br/&gt;brings you its worst." class="text2"/>
+                <m:Button text="Learn more"/>
+            </m:VBox>
+            <m:HBox class="cards" justifyContent="Center">
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                
+            </m:HBox>
+            <m:HBox class="cards" justifyContent="Center">
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                
+            </m:HBox>
+            <m:HBox class="cards" justifyContent="Center">
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                <f:Card class="bigCard" >
+                    <f:content>
+                        <m:VBox justifyContent="SpaceBetween">
+                            <m:Text text="Financial Management"/>
+                            <m:FormattedText htmlText="SAP S/4HANA Cloud is complete, modular, and award-winning ERP. Embedded with AI&lt;br/&gt; and analytics, it can help your business run anywhere, in real time."/>
+							<m:Link text="Get Started With SAP/4HANA Cloud"/>
+                        </m:VBox>
+                    </f:content>
+                </f:Card>
+                
+            </m:HBox>
+            
+        </m:content>
+    </m:Page>
+</mvc:XMLView>
